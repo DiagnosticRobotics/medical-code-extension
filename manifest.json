@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "ICD Code Lookup",
+    "version": "1.0",
+    "description": "Looks up the description of ICD codes in selected text.",
+    "permissions": [
+      "activeTab",
+      "contextMenus",
+      "storage"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ]
+  }

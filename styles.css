@@ -1,0 +1,43 @@
+.icd-overlay {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    max-width: 300px;
+    max-height: 400px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    overflow-y: auto;
+  }
+  
+  .icd-overlay h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+  }
+  
+  .icd-content {
+    max-height: 300px;
+
+    overflow-y: auto;
+    margin-bottom: 4px;
+  }
+  
+  .icd-overlay p {
+    margin: 0 0 4px;
+    font-size: 14px;
+    border-bottom: #eaeaea 1px solid;
+  }
+  
+  .close-button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
